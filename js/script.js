@@ -4,6 +4,7 @@ const questionForm = document.querySelector(".quiz-form");
 const scoreTag = document.querySelector(".result-display");
 var totalScore = document.querySelector(".score");
 var scoreRemark = document.querySelector(".remark");
+var score = 0;
 
 //form submission function to prevent the default redirection
 questionForm.addEventListener("submit", (e) => {
@@ -18,12 +19,11 @@ questionForm.addEventListener("submit", (e) => {
         questionForm.six.value,
     ];
 
-    // testing the comparison between user answers and the default correct answers
+    // testing the score increment for every right answer functionality
     for (item in userResponses) {
         if (userResponses[item] === correctAnswers[item]) {
-            console.log("true");
-        } else {
-            console.log("false");
+            score++;
         }
+        console.log(score);
     }
 });
