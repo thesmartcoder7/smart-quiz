@@ -265,6 +265,37 @@ main {
         font-size: 3.5vw;
     }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .result-display {
+        font-weight: 500;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        border: #c4c4c4 0.35vw solid;
+        width: 67vw;
+        height: 25vh;
+        border-radius: 2vw;
+        font-size: 1.5vw;
+        color: #7c7979;
+        position: static;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 0;
+        background-color: #fff;
+        padding: 5%;
+        z-index: 2;
+    }
+
+    .result-display .score {
+        color: #7c7979;
+        font-size: 3.5vw;
+    }
+    
+    .result-display .remark {
+        color: #24a4ec;
+        font-size: 3.5vw;
+    }
+}
 
 .result-display .score {
     color: #7c7979;
@@ -437,6 +468,16 @@ label span {
     }
 }
 @media screen and (min-width: 501px) and (max-width: 768px) {
+    .reload {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: -3%;
+        margin-left: 43vw;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .reload {
         display: none;
         position: absolute;
