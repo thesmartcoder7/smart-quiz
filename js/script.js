@@ -24,8 +24,11 @@ questionForm.addEventListener("submit", (e) => {
         if (userResponses[item] === correctAnswers[item]) {
             score++;
         }
-        console.log(score);
     }
-
+    percentageScore = Number(
+        ((score / correctAnswers.length) * 100).toFixed(2)
+    );
     scoreTag.style.display = "flex";
+    console.log(percentageScore);
+    totalScore.innerText = percentageScore;
 });
