@@ -16,6 +16,11 @@ body {
 main {
     padding: 10%;
 }
+@media screen and (max-width: 500px) {
+    main {
+        padding: 12% 8% 8% 8%;
+    }
+}
 
 .quiz-wrapper {
     padding: 5%;
@@ -23,6 +28,15 @@ main {
     width: 70%;
     border: 0.35vw solid #c4c4c4;
     position: relative;
+}
+@media screen and (max-width: 500px) {
+    .quiz-wrapper {
+        padding: 5%;
+        margin: auto;
+        width: 100%;
+        border: 1vw solid #c4c4c4;
+        position: relative;
+    }
 }
 
 .quiz-wrapper h1 {
@@ -37,11 +51,32 @@ main {
     background-color: #fff;
     padding: 2% 5%;
 }
+@media screen and (max-width: 500px) {
+    .quiz-wrapper h1 {
+        font-weight: 500;
+        display: inline-block;
+        font-size: 7vw;
+        color: #24a4ec;
+        position: absolute;
+        text-align: center;
+        margin-top: -14%;
+        margin-left: 13%;
+        background-color: #fff;
+        padding: 2% 5%;
+    }
+}
 
 .quiz-wrapper h1 span {
     font-weight: 500;
     font-size: 2vw;
     color: #7c7979;
+}
+@media screen and (max-width: 500px) {
+    .quiz-wrapper h1 span {
+        font-weight: 500;
+        font-size: 7vw;
+        color: #7c7979;
+    }
 }
 
 .quiz-wrapper h2 {
@@ -49,6 +84,14 @@ main {
     margin-top: -2%;
     font-size: 1vw;
     padding: 5% 0;
+}
+@media screen and (max-width: 500px) {
+    .quiz-wrapper h2 {
+        font-weight: 500;
+        margin-top: -2%;
+        font-size: 3.7vw;
+        padding: 10% 0 5% 0;
+    }
 }
 
 /*  change this when the user hits the submit button */
@@ -90,6 +133,14 @@ p {
     font-weight: 500;
     padding: 2% 0;
 }
+@media screen and (max-width: 500px) {
+    p {
+        font-size: 3.2vw;
+        font-weight: 500;
+        padding: 2% 0;
+        line-height: 6vw;
+    }
+}
 
 .answer {
     padding: 1% 0;
@@ -104,6 +155,11 @@ form {
 input[type="radio" i] {
     font-size: 0.9vw;
 }
+@media screen and (max-width: 500px) {
+    input[type="radio" i] {
+        font-size: 3.2vw;
+    }
+}
 
 label {
     padding-left: 2%;
@@ -112,6 +168,12 @@ label {
 label span {
     font-size: 0.9vw;
     padding-left: 1%;
+}
+@media screen and (max-width: 500px) {
+    label span {
+        font-size: 3.2vw;
+        padding-left: 1%;
+    }
 }
 
 .submit,
@@ -126,6 +188,22 @@ label span {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     margin-top: 5%;
+}
+@media screen and (max-width: 500px) {
+    .submit,
+    .reload {
+        cursor: pointer;
+        color: #fff;
+        padding: 3% 6%;
+        border: none;
+        outline: none;
+        background-color: #24a4ec;
+        font-size: 3.2vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
 }
 
 .reload {

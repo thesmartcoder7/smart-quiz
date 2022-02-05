@@ -28,7 +28,7 @@ questionForm.addEventListener("submit", (e) => {
     }
     percentageScore = Number(
         ((score / correctAnswers.length) * 100).toFixed(2)
-    );
+    ); // converts this string to Number since the .toFixed function converts the numbers to strings
 
     scoreTag.style.display = "flex";
     reloadBtn.style.display = "inline";
@@ -48,6 +48,6 @@ questionForm.addEventListener("submit", (e) => {
     });
 
     reloadBtn.addEventListener("click", () => {
-        window.location.reload();
+        window.location.reload(); // reloads the page for a new try once the user clicks
     });
 });
