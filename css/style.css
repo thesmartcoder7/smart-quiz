@@ -1,0 +1,126 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+/* css resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #565656;
+}
+
+main {
+    padding: 10%;
+}
+
+.quiz-wrapper {
+    padding: 5%;
+    margin: auto;
+    width: 70%;
+    border: 0.35vw solid #c4c4c4;
+    position: relative;
+}
+
+.quiz-wrapper h1 {
+    font-weight: 500;
+    display: inline-block;
+    font-size: 2vw;
+    color: #24a4ec;
+    position: absolute;
+    text-align: center;
+    margin-top: -12%;
+    margin-left: 27%;
+    background-color: #fff;
+    padding: 2% 5%;
+}
+
+.quiz-wrapper h1 span {
+    font-weight: 500;
+    font-size: 2vw;
+    color: #7c7979;
+}
+
+.quiz-wrapper h2 {
+    font-weight: 500;
+    margin-top: -2%;
+    font-size: 1vw;
+    padding: 3% 0;
+}
+
+/*  change this when the user hits the submit button */
+.result-display {
+    font-weight: 500;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: #c4c4c4 0.35vw solid;
+    width: 10vw;
+    height: auto;
+    border-radius: 15vw;
+    font-size: 1.3vw;
+    color: #7c7979;
+    position: relative;
+    text-align: center;
+    margin-top: -15%;
+    margin-left: 90%;
+    background-color: #fff;
+    padding: 6.5%;
+}
+
+.result-display .score {
+    color: #7c7979;
+}
+
+.result-display .remark {
+    color: #24a4ec;
+}
+
+.question {
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+p {
+    font-size: 0.9vw;
+    font-weight: 500;
+    padding: 2% 0;
+}
+
+.answer {
+    padding: 1% 0;
+}
+
+form {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+input[type="radio" i] {
+    font-size: 0.9vw;
+}
+
+label {
+    padding-left: 2%;
+}
+
+label span {
+    font-size: 0.9vw;
+    padding-left: 1%;
+}
+
+.submit {
+    cursor: pointer;
+    color: #fff;
+    padding: 2% 5%;
+    border: none;
+    outline: none;
+    background-color: #24a4ec;
+    font-size: 0.9vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-top: 5%;
+}
