@@ -20,6 +20,8 @@ This is a simple quiz board sample for students who are beginners in learning ab
 
 Future updates will include functionality like a robust backend, user-registration, question randomization using trivia APIs.
 
+This project also uses sample questions from https://jaxenter.com/know-your-javascript-trivia-134924.html
+
 ## Usage
 
 ### Requirements
