@@ -28,7 +28,14 @@ questionForm.addEventListener("submit", (e) => {
     percentageScore = Number(
         ((score / correctAnswers.length) * 100).toFixed(2)
     );
+
     scoreTag.style.display = "flex";
-    console.log(percentageScore);
     totalScore.innerText = percentageScore;
+    if (percentageScore > 80) {
+        scoreRemark.innerText = "Impresively Done!";
+    } else if (percentageScore >= 50 && percentageScore <= 80) {
+        scoreRemark.innerText = "Fairly Done!";
+    } else {
+        scoreRemark.innerText = "Poorly Done!";
+    }
 });

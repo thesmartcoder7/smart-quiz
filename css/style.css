@@ -48,7 +48,7 @@ main {
     font-weight: 500;
     margin-top: -2%;
     font-size: 1vw;
-    padding: 3% 0;
+    padding: 5% 0;
 }
 
 /*  change this when the user hits the submit button */
@@ -59,7 +59,7 @@ main {
     justify-content: center;
     border: #c4c4c4 0.35vw solid;
     width: 10vw;
-    height: auto;
+    height: 17vh;
     border-radius: 15vw;
     font-size: 1.5vw;
     color: #7c7979;
@@ -68,7 +68,7 @@ main {
     margin-top: -25%;
     margin-left: 95%;
     background-color: #fff;
-    padding: 7.5%;
+    padding: 5%;
 }
 
 .result-display .score {
