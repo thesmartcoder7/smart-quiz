@@ -1,0 +1,5 @@
+use this command in your terminal to convert all your images to webp losslessly for better SEO.
+
+NB: copy all characters in this line
+
+`for file in *; do cwebp -q 100 "$file" -o "${file%.*}.webp"; done` 
