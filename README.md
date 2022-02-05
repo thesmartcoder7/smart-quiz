@@ -2,6 +2,8 @@
 
 ![Project Image](images/README-image.webp)
 
+Design Link: https://www.figma.com/file/dpTlVo6LLotoq8NvQ7T19O/Smart-Quiz?node-id=0%3A1
+
 ### By: Samuel Martins
 
 ## Table of Content
@@ -14,7 +16,9 @@
 
 ## Description
 
-This is a simple quiz board sample for students who are beginners in learning about JavaScript. 
+This is a simple quiz board sample for students who are beginners in learning about JavaScript. In this first iteration, the goal was to have the logic working.
+
+Future updates will include functionality like a robust backend, user-registration, question randomization using trivia APIs.
 
 ## Usage
 
@@ -58,8 +62,6 @@ Happy coding!
 
 MIT License
 
-MIT License
-
 Copyright (c) 2022 Samuel Martins
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -79,7 +81,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 
 ## Author Info
 
