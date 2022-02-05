@@ -18,8 +18,12 @@ questionForm.addEventListener("submit", (e) => {
         questionForm.six.value,
     ];
 
-    //testing if the user responses are being recorded
-    for (response in userResponses) {
-        console.log(userResponses[response]);
+    // testing the comparison between user answers and the default correct answers
+    for (item in userResponses) {
+        if (userResponses[item] === correctAnswers[item]) {
+            console.log("true");
+        } else {
+            console.log("false");
+        }
     }
 });
