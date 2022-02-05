@@ -26,6 +26,11 @@ main {
         padding: 10%;
     }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    main {
+        padding: 10%;
+    }
+}
 
 .quiz-wrapper {
     padding: 5%;
@@ -52,6 +57,16 @@ main {
         position: relative;
     }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .quiz-wrapper {
+        padding: 5%;
+        margin: auto;
+        width: 95%;
+        border: 0.8svw solid #c4c4c4;
+        position: relative;
+    }
+}
+
 
 
 .quiz-wrapper h1 {
@@ -94,6 +109,21 @@ main {
         padding: 2% 5%;
     }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .quiz-wrapper h1 {
+        font-weight: 500;
+        display: inline-block;
+        font-size: 4vw;
+        color: #24a4ec;
+        position: absolute;
+        text-align: center;
+        margin-top: -11%;
+        margin-left: 25%;
+        background-color: #fff;
+        padding: 2% 5%;
+    }
+}
+
 
 .quiz-wrapper h1 span {
     font-weight: 500;
@@ -108,6 +138,13 @@ main {
     }
 }
 @media screen and (min-width: 501px) and (max-width: 768px) {
+    .quiz-wrapper h1 span {
+        font-weight: 500;
+        font-size: 4vw;
+        color: #7c7979;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .quiz-wrapper h1 span {
         font-weight: 500;
         font-size: 4vw;
@@ -130,6 +167,14 @@ main {
     }
 }
 @media screen and (min-width: 501px) and (max-width: 768px) {
+    .quiz-wrapper h2 {
+        font-weight: 500;
+        margin-top: -2%;
+        font-size: 2.7vw;
+        padding: 10% 0 5% 0;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .quiz-wrapper h2 {
         font-weight: 500;
         margin-top: -2%;
@@ -255,6 +300,14 @@ p {
         line-height: 6vw;
     }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    p {
+        font-size: 2.2vw;
+        font-weight: 500;
+        padding: 2% 0;
+        line-height: 6vw;
+    }
+}
 
 
 .answer {
@@ -296,6 +349,12 @@ label span {
         padding-left: 1%;
     }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    label span {
+        font-size: 2.2vw;
+        padding-left: 1%;
+    }
+}
 
 .submit,
 .reload {
@@ -327,6 +386,22 @@ label span {
     }
 }
 @media screen and (min-width: 501px) and (max-width: 768px) {
+    .submit,
+    .reload {
+        cursor: pointer;
+        color: #fff;
+        padding: 3% 6%;
+        border: none;
+        outline: none;
+        background-color: #24a4ec;
+        font-size: 2.2vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .submit,
     .reload {
         cursor: pointer;
