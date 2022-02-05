@@ -191,7 +191,7 @@ main {
     justify-content: center;
     border: #c4c4c4 0.35vw solid;
     width: 10vw;
-    height: 17vh;
+    height: auto;
     border-radius: 15vw;
     font-size: 1.5vw;
     color: #7c7979;
@@ -200,7 +200,7 @@ main {
     margin-top: -25%;
     margin-left: 95%;
     background-color: #fff;
-    padding: 5%;
+    padding: 3vw 5%;
     z-index: 2;
 }
 @media screen and (max-width: 500px) {
