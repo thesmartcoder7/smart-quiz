@@ -2,6 +2,7 @@
 const correctAnswers = ["c", "b", "a", "b", "d", "c"];
 const questionForm = document.querySelector(".quiz-form");
 const scoreTag = document.querySelector(".result-display");
+const reloadBtn = document.querySelector(".reload");
 var totalScore = document.querySelector(".score");
 var scoreRemark = document.querySelector(".remark");
 var score = 0;
@@ -30,7 +31,9 @@ questionForm.addEventListener("submit", (e) => {
     );
 
     scoreTag.style.display = "flex";
+    reloadBtn.style.display = "inline";
     totalScore.innerText = percentageScore;
+
     if (percentageScore > 80) {
         scoreRemark.innerText = "Impresively Done!";
     } else if (percentageScore >= 50 && percentageScore <= 80) {
@@ -38,4 +41,13 @@ questionForm.addEventListener("submit", (e) => {
     } else {
         scoreRemark.innerText = "Poorly Done!";
     }
+
+    scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+
+    reloadBtn.addEventListener("click", () => {
+        window.location.reload();
+    });
 });

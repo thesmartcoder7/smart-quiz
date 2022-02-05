@@ -69,6 +69,7 @@ main {
     margin-left: 95%;
     background-color: #fff;
     padding: 5%;
+    z-index: 2;
 }
 
 .result-display .score {
@@ -97,6 +98,7 @@ p {
 form {
     font-family: "Montserrat", sans-serif;
     text-align: center;
+    position: relative;
 }
 
 input[type="radio" i] {
@@ -112,7 +114,8 @@ label span {
     padding-left: 1%;
 }
 
-.submit {
+.submit,
+.reload {
     cursor: pointer;
     color: #fff;
     padding: 2% 5%;
@@ -123,4 +126,13 @@ label span {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     margin-top: 5%;
+}
+
+.reload {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 70;
+    margin-top: -10%;
+    margin-left: 20%;
 }
