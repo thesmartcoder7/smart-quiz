@@ -26,4 +26,6 @@ questionForm.addEventListener("submit", (e) => {
         }
         console.log(score);
     }
+
+    scoreTag.style.display = "flex";
 });

@@ -61,14 +61,14 @@ main {
     width: 10vw;
     height: auto;
     border-radius: 15vw;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     color: #7c7979;
     position: relative;
     text-align: center;
-    margin-top: -15%;
-    margin-left: 90%;
+    margin-top: -25%;
+    margin-left: 95%;
     background-color: #fff;
-    padding: 6.5%;
+    padding: 7.5%;
 }
 
 .result-display .score {
