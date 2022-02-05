@@ -1,4 +1,4 @@
-# Insurance Company Landing Page
+# Smart-Quiz Board
 
 ![Project Image](images/README-image.webp)
 
