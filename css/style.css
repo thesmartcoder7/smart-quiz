@@ -67,8 +67,6 @@ main {
     }
 }
 
-
-
 .quiz-wrapper h1 {
     font-weight: 500;
     display: inline-block;
@@ -123,7 +121,6 @@ main {
         padding: 2% 5%;
     }
 }
-
 
 .quiz-wrapper h1 span {
     font-weight: 500;
@@ -228,7 +225,7 @@ main {
         color: #7c7979;
         font-size: 5vw;
     }
-    
+
     .result-display .remark {
         color: #24a4ec;
         font-size: 5vw;
@@ -259,7 +256,7 @@ main {
         color: #7c7979;
         font-size: 3.5vw;
     }
-    
+
     .result-display .remark {
         color: #24a4ec;
         font-size: 3.5vw;
@@ -290,7 +287,7 @@ main {
         color: #7c7979;
         font-size: 3.5vw;
     }
-    
+
     .result-display .remark {
         color: #24a4ec;
         font-size: 3.5vw;
@@ -340,7 +337,6 @@ p {
     }
 }
 
-
 .answer {
     padding: 1% 0;
 }
@@ -352,6 +348,7 @@ form {
 }
 
 input[type="radio" i] {
+    cursor: pointer;
     font-size: 0.9vw;
 }
 @media screen and (max-width: 500px) {
@@ -365,6 +362,7 @@ label {
 }
 
 label span {
+    cursor: pointer;
     font-size: 0.9vw;
     padding-left: 1%;
 }
@@ -487,5 +485,3 @@ label span {
         margin-left: 43vw;
     }
 }
-
-

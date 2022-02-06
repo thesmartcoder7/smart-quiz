@@ -47,7 +47,9 @@ questionForm.addEventListener("submit", (e) => {
         behavior: "smooth",
     });
 
-    reloadBtn.addEventListener("click", () => {
-        window.location.reload(); // reloads the page for a new try once the user clicks
-    });
+    //questionForm.reset(); //resets the form
+});
+
+reloadBtn.addEventListener("click", () => {
+    window.location.reload(); // reloads the page for a new try once the user clicks
 });
