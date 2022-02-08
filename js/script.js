@@ -47,7 +47,7 @@ questionForm.addEventListener("submit", (e) => {
         behavior: "smooth",
     });
 
-    //questionForm.reset(); //resets the form
+    questionForm.reset(); //resets the form
 });
 
 reloadBtn.addEventListener("click", () => {
