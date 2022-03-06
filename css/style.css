@@ -397,6 +397,9 @@ label span {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     margin-top: 5%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 @media screen and (max-width: 500px) {
     .submit,
